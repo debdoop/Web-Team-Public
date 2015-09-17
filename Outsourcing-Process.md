@@ -1,6 +1,6 @@
-# Outsourcing
 
- ### Add to contract 
+
+### Add to contract 
 
  - Technical documentation as required by WT development team 
 - User documentation if applicable 
@@ -29,7 +29,7 @@
 
   - Test code shouldn’t go on stage 
 
-## One off exercise by the WT development team per time it is required for a site. 1 weeks notice needed. 
+### One off exercise by the WT development team per time it is required for a site. 1 weeks notice needed. 
 
  - DW to put in JIRA - ticket for the setting up.  (AD-134)
 
@@ -41,7 +41,7 @@
 
 
 
-## Before a Job
+### Before a Job
 
 - PO makes a proposal 
 - For each new site CE need 1 weeks notice 
@@ -63,7 +63,7 @@ Supplier makes proposal
 - WPC arranges for copy of the content if required 
 
 
- ## Per job process
+ ### Per job process
 
 - Job is logged in Jira – WPC
   - To log time against 
