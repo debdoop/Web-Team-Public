@@ -1,13 +1,11 @@
 ## Recent / New 
 
-Q: The website has encoutnered an unexpected error 
+- Q: The website has encoutnered an unexpected error 
+- A: We don't know why this is happening but some users experience this when trying to log in. It seems to resolve its self eventualy. 
 
-A: We don't know why this is happening but some users experience this when trying to log in. It seems to resolve its self eventualy. 
 
-
-Q: Why do I have to keep logging in? 
-
-A: We are trying to fix this, see [Chris's update] (https://trustnet.wellcome.ac.uk/news/why-do-i-have-keep-logging-trustnet) on Trustnet
+- Q: Why do I have to keep logging in? 
+- A: We are trying to fix this, see [Chris's update] (https://trustnet.wellcome.ac.uk/news/why-do-i-have-keep-logging-trustnet) on Trustnet
 
 
 Q: Problems with Forms 
