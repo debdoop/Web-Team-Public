@@ -1,4 +1,18 @@
-## Recent / New 
+Index 
+
+---[Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent) 
+
+---[Access] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/faqs.md#Access)
+
+---[Functionality] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Functionality)
+
+---[Organisation / Org charts / Organograms] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Organisation / Org charts / Organograms)
+
+---[Content] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Content)
+
+***
+
+### Recent
 
 Q: The website has encoutnered an unexpected error 
 
@@ -68,7 +82,7 @@ A: For some reason IE9 has loaded Trustnet in compatability mode. This can be so
 
 ***
 
-## Organisation / Org charts / Organograms 
+### Organisation / Org charts / Organograms 
 
 Q: My department is displayed incorrectly 
 
