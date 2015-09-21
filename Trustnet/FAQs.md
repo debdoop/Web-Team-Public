@@ -1,14 +1,14 @@
 Index 
 
----[Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent) 
+⋅⋅⋅[Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent) 
 
----[Access] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/faqs.md#Access)
+⋅⋅⋅[Access] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/faqs.md#Access)
 
----[Functionality] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Functionality)
+⋅⋅⋅[Functionality] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Functionality)
 
----[Organisation / Org charts / Organograms] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Organisation / Org charts / Organograms)
+⋅⋅⋅[Organisation / Org charts / Organograms] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Organisation / Org charts / Organograms)
 
----[Content] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Content)
+⋅⋅⋅[Content] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Content)
 
 ***
 
