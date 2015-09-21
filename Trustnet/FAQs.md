@@ -1,6 +1,6 @@
-Index 
+*Index* 
 
-[Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent) 
+[Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent / New) 
 
 [Access] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/faqs.md#Access)
 
@@ -12,7 +12,7 @@ Index
 
 ***
 
-### Recent
+### Recent / New
 
 Q: The website has encoutnered an unexpected error 
 
