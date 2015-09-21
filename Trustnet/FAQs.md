@@ -14,7 +14,7 @@
 
 ### Recent / New
 
-Q: The website has encoutnered an unexpected error 
+Q: When trying to log in, why do I get the error message "The website has encoutnered an unexpected error"? 
 
 A: We don't know why this is happening but some users experience this when trying to log in. It seems to resolve its self eventualy. 
 
