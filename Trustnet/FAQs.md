@@ -1,4 +1,4 @@
-*Index* 
+**Index**
 
 [Recent / New] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent / New) 
 
