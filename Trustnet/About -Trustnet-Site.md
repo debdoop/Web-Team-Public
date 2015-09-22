@@ -10,6 +10,107 @@
 
 ***
 
+## Users and Acess
+
+
+> As web editor, I'd like Trust employees, Service Partners, Contractors and Tenants to have 'normal' access to the intranet so that we can share with them.
+
+
+### All Drupal Accounts
+
+Automated Email Currently says Subject: An administrator created an account for you at Trustnet Body: First name Second name, A site administrator at Trustnet has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:https://trustnet.wellcome.ac.uk/user/reset/1389/1439988072/za9yh9-kvIi-sv5R2_k_V7zGAl21d7Xvm_NTGbZWOss This link can only be used once to log in and will lead you to a page where you can set your password. After setting your password, you will be able to log in at https://trustnet.wellcome.ac.uk/user in the future using: username: First Name Second Name Test password: Your password – Trustnet team
+
+### All Service partners
+
+When creating accounts I need to add them to facilities department group so that Claire can add them to the department group Tenants or Service partners with an AD account and an HR account (not a drupal account) eg.
+
+eg. someone employed by the trust but part of a tenant or service partner eg. some of AMR team. They should log in with their AD account because any drupal account made will be a duplicate.
+
+Tenants or Service partners with an AD account (no HR account) (not a drupal account)
+
+Are only ‘allowed’ a Trustnet account if their employer have TOU in place but they would be able to log on with their AD account.
+
+WPC can make an account for them, (unless they have logged on with their AD information - and a profile will have been made automatically.) the mandatory information can be included in their profile.
+
+When creating a password - it is irrelevant, only the AD account will work for their login.
+
+When creating an account - Use their AD username.
+
+They will be able to access sharepoint.
+
+### Drupal Accounts (no AD account) - Tenants and Service providers
+
+Won’t be in org charts
+
+Are added manually by WPC when requested by their account contact and having a signed Terms of Use document in place
+
+Contractors with AD accounts (not in HR database but in AD database) (not a Drupal Account)
+
+Any contractor with an AD account can log in - at which point they will have a Trustnet profile.
+
+They will not appear in org chats
+
+Their data is pulled in from IT’s AD data which at the moment doesn’t have what department they work in.
+
+They can be manually added to a department group but only after someone with edit access has added them by the "add to team (for contractor's)" field
+
+### Anomalies / troubleshooting
+
+James Mudd - has a non AD email address in HR. So he should log in with his AD account details which will be James.Mudd@amr-review.org and normal password
+
+To find an AD account’s username you can right click their email address in outlook (to: field) > properties > alias.
+
+If a user has two accounts (- it seems like they get blocked
+
+Their AD account needs to be in a verified group Windows 7 users group is verified Generic Accounts (I think isn’t verified)
+
+### Leavers / old accounts
+
+Enabled / disabled: is purely a drupal thing. If someone isn’t in the HR extract any more but they were, their account will be disabled.
+
+if someone is in HR and has logged on with their AD account they are enabled. If someone has been marked as left in HR they are disabled: their profile will be hidden but their content will stay.
+
+Account blocked (what happens when someone leaves) will mean that they aren't visible from anywhere.
+
+Disabled accounts eg. https://trustnet.wellcome.ac.uk/user/hurleyo are still visible if linked to but they do not appear in org charts or groups.
+
+HR: It is the responsibility of the employee to notify HR when they change their name. Change of name has implications on Payroll, Pensions, and Healthcare amongst other things. When we hear of a change of name, SelectHR is updated and payroll, AXA, security, and the pension providers are notified. The employee is advised that they need to contact IT to get their logonid/email address changed. There is no requirement for the employee to provide documentary evidence. In terms of synchronising changes to logonid with IT so that access to SelectHR is unaffected, the employee is told to notify HR again once their logonid has been changed by IT, and then the corresponding change is made to their SelectHR account.
+
+I don’t believe admin were aware of this particular change. They tell me that quite often the employee realises that they need to notify payroll, and then Nick Bowden notifies HR. There have been occasions where employees have been unable to take up their Healthcare because their details didn’t match those held by AXA and then they have notified us of changes.
+
+Going forward we are debating making name change available via self-service on the basis that the easier it is to do the more likely the employee is to do it, but there are significant risks in doing this, as employees (in other organisations, of course!)often find it amusing to enter spurious personal details.
+
+HR notify payrol, securitty, axa insurance. They tell the individual that they have to update IT.
+
+Erland is contracted to update select HR to 2.1 - he will be in touch with debbie about dates for testing how it works with the extract on stage. 6 - 10 weeks ahead of launch of trustnet (so november december)
+
+Tracey, Sonia Erland and Glenn have access to the HR reported issues sheet Tracey and Sonia have the HR generic email address, so they get the requests from Trustnet org charts. They are able to update email addresses.
+
+New starters will usually be added before they arrive (but with no email address) HR then tell IT,who make them an email address and then HR update their records. So new starters will probably come in through the extract without email addresses, then when they log in AD will link.
+
+Contractors like Noel Quinn - HR donsn’t want their names in HR, they want to use position Null.
+
+Gary Campbell is the IT HR account manager
+
+Erland has a document started with ACF (missing ACFs part) about the extract.
+
+Select HR is hosted by a third party, and connects through a vpn.
+
+When an AD account changes - Eg. AD username was SherrarK and changed to SherratK. Updating the account from AD didn’t allow her to log in, changing her username on Trustnet didn’t allow her to log in, I had to change her account in order for her to log in.
+
+### Accents in names 
+
+If HR agree to include accents they will appear on peoples names - eg. Barbara Rodriguez Munoz and their AD account still links (is it linked by email address only?) 
+Search won't find them if people search without the accents - but they can include their name without accents in their profile description. 
+
+### Incorrect Password 
+Locks you out for 15-20 minutes 
+
+
+### Admin
+- Update user from AD (available to WPC) currently updates Name and Job title only. 
+- 
+***
 ## All pages / content 
 
 ### Supported content 
