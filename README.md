@@ -3,8 +3,8 @@
 **Drupal Development Cycle**
 
 - Code written and peer reviewed: by end Tuesday 
-- Testing and PO signing off changes on Stage: by end of Wednesday
-- Merged to prod: end Thursday 
+- Testing and Product Owner acceptance on Stage: by end of Wednesday
+- Merged to live: end Thursday 
 - Test and sign off on live: Friday
 
 **Requesting Work**
