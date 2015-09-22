@@ -10,7 +10,10 @@
 **Requesting Work**
 
 - Work is requested through the [Commission a communications Project form] (https://trustnet.wellcome.ac.uk/working-at-wellcome/commission-communications-project)
+- If it is a task (copy of a feature) or a bug it will be scheduled in the next available BAU time, if it is a new user story will wait for the next sprint for that site. 
+- If it is a story for a current redevelopment project it will be prioritised by the Product Owner
 - Bugs can be reported to websupport@
+- How soon bug will be worked on depends on how critical they are [here] (https://docs.google.com/document/d/197jbE2AI5gKQltetb411oEirL9JD4nfUkEUHTzSldUQ/edit) are the current definitions. 
 
 **Web Team Schedule / Sprints**
 
