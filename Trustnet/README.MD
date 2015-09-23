@@ -8,8 +8,12 @@ Welcome to Trustnet Docs!
  - [Functionality] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Functionality)
  - [Org Charts] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Organisation%20/%20Org%20charts%20/%20Organograms) 
  - [Content] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Content)
+ 
+
 [Purpose] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/Purpose.md)
+
 [About Trustnet Site] in more detial (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/About%20-Trustnet-Site.md)
+
  - [Users] (https://github.com/wellcometrust/web-team-public/trustnet/#Users-and-Acess) 
  - [All pages / content] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#content)
  - [Search] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#search)
