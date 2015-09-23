@@ -12,7 +12,7 @@
 
 ## Users and Acess
 
-*Purpouse* 
+*Purpose* 
 
 > As web editor, I'd like Trust employees, Service Partners, Contractors and Tenants to have 'normal' access to the intranet so that we can share with them.
 
@@ -187,16 +187,18 @@ Functionality
 
 > As a user I want Hidden rather than faded out advanced search options until they're available 
 
+> As a web editor, I want to be able attach meta data to content in the Working at Wellcome section so that it can be found easily in the Working at Wellcome search and general search.
+
 **Troubleshooting**
 
 - Search doesn't currently return sharepoint sites only content 
 - Searching for a name with an accent doens't currently return the name without the accent and vice versa. 
 - Solr search is what we are using 
-- Content owners are able to tag content
+
 
 ## Home Page 
 
-*Purpouse*
+*Purpose*
 
 > **Quick Links** As a user I want access to Select HR, payslips and similar links from the homepage, so that I can find them easily.
 Offsite link: : https://wellcomehr.accessacloud.com/accessselecthr/Login.aspx 
@@ -213,28 +215,21 @@ Offsite link: : https://wellcomehr.accessacloud.com/accessselecthr/Login.aspx
 
 > How many items should appear on the news page? 5 events and 5 noticeboard then we have load more button 20/8/2015
 
-> As a comms manager I want to be able to push **sategic news so that staff don't miss important updates
+> As a comms manager I want to be able to push **sategic news** so that staff don't miss important updates
 
 > As a comms manager I want more news items to be visible on the homepage at once, so that important or time sensitive news items do not "fall off" the homepage too quickly
-
-> As a web editor I want to be able to schedule news (and other content) to post at set times, so that I don't always have to be at my desk when it needs to go live
-
-
-## Events
-
 
 > As a web editor and a group owner I want to be able to schedule news and events to post at set times, so that I don't always have to be at my desk when it needs to go liveEvents can be scheduled to publish
 
 
-## Lunch Menu 
+**Lunch Menu**
+
+Troubleshooting
+
+- If the main dish is empty it won’t publish
 
 
-### Functionality 
-
-If the main dish is empty it won’t publish
-
-
-## Notice Board
+**Notice Board**
 
 > As a user, I want to see a place on the intranet where I can advertise or post noticeboard type content, so that I can communicate to all interested staff.
 
@@ -252,33 +247,37 @@ If the main dish is empty it won’t publish
 
 # Working at Wellcome 
 
-content has to be from a department not a division 
-
-Links to documents (sharepoint hosted) on information tables won’t be available off the network until 2FA is set up
-
-> As a web editor, I want to be able attach meta data to content in the Working at Wellcome section so that it can be found easily in the Working at Wellcome search and general search.
-
-
-
 ### Forms
 
-> As a user, I want to find forms grouped with relevant contextual content rather than other forms, so that I can find them easily find them at the relevant moment.
+*Purpose*
 
-> As a user, when I submit a web form, I want to be emailed a copy of the information I sent, so that I can trust it has been submitted and so that I can keep records.
+> As a user, I want to find **forms grouped with relevant contextual content** rather than other forms, so that I can find them easily find them at the relevant moment.
+
+> As a user, when I submit a web form, I want to be **emailed a copy** of the information I sent, so that I can trust it has been submitted and so that I can keep records.
 
 > As a user I want forms to have show who they apply to and what department they came from, in line with other W@W content, so that it is clear who they are for. [INT-343]
 
 Admin accounts can add people to receive the form via the form > webform tab > emails
 
 
+**Troubleshooting**
+
+- Content has to be from a department not a division 
+- Links to documents (sharepoint hosted) on information tables won’t be available off the network until 2FA is set up
+- Form submissions are backed up in a secure mail box managed by Sarah Clifford 
+
 ### Policies
 
-> As a user, I want all-staff policies to appear on the intranet, so that they are easy to find and read.
+*Purpose*
+
+> As a user, I want **all-staff policies** to appear on the intranet, so that they are easy to find and read.
 
 > As a Web Editor, I want to able to review and publish content in the policy section so that I can maintain editorial and UX standards.
 
 
 ### Courses 
+
+*Purpose*
 
 > As a user, I want training course info to include a breakdown of the session and skills they could learn, so they can see if the course is right for them.
 
@@ -291,132 +290,123 @@ When adding a job that goes to the external jobs listing site, the form currentl
 
 # Org charts / Organisation 
 
-https://trustnet.wellcome.ac.uk/organisation
-(It did open org charts view, but users prefered the drop down index view. 20/8/2015
 
-> As HR I want to be able to control some elements of the people directory via SelectHR, to avoid duplication and ensure changes are made instantly.
+*Purpose*
 
 > As a user  I want to see a simple visual representation of the structure of the Trust, so that I can see how roles and departments fit together.
 
-zoom is limited
-org charts are prevented from being pushed off the screen
+> As HR I want to be able to control some elements of the people directory via SelectHR, to avoid duplication and ensure changes are made instantly.
 
-HR updates org charts at 5am syncs imports Select HR data. Any users who have left will be disabled. 
-
-HR have the option to show and hide someone 
-
-In the HR data there are Departments and Divisions, a department eg. People and Facilities is a division
-
-
-I want the staff directory and the org chats to be related so that I can see where people fit in
-
-Override / Administer Org chart settings / exceptions - this page HR can access, and it is up to them to own and manage. Extra org chart - you can add someone to an extra org chart goup but they have to have someone as their line manager to appear there. Extra manager - for someone who is in two teams 
-
-**Secondments**
-
-At launch: 
-Secondments don’t show in org charts 
-On a profile - the way to indicate that you are on a secondment is in the status field. 
+> As a user I want the staff directory and the org chats to be related so that I can see where people fit in.
 
 > As a UX designer, I want to include org charts as web content (not standalone), so that users have a seamless browsing experience.
 
-### Shared PAs 
+*Troubleshooting*
 
-
-###Accents in Names 
-
-[Here] is a doc with a conversation with HR about this (https://docs.google.com/document/d/1GkTqMLEZWzDMPYEBWtjR4Ey-ee_4XwiH8OeP2M0bZ_4/edit)
-
-### Quirks 
-
-It won’t show people who are on maternity cover eg. James Mudd. ACF says this is a problem with HR’s data. 
-
-Claire has decided to not show interns in the org charts
-
-Grads Graudates - we have asked HR if they can include them in the org chart in the place they are doing their placement - this is yet to be confirmed 
+- zoom is limited
+- org charts are prevented from being pushed off the screen
+- HR updates org charts at 5am syncs imports Select HR data. Any users who have left will be disabled. 
+- HR have the option to show and hide someone 
+- In the HR data there are Departments and Divisions, a department eg. People and Facilities is a division
+- Override / Administer Org chart settings / exceptions - this page HR can access, and it is up to them to own and manage. Extra org chart - you can add someone to an extra org chart goup but they have to have someone as their line manager to appear there. Extra manager - for someone who is in two teams 
+- Secondments don’t show in org charts 
+- On a profile - the way to indicate that you are on a secondment is in the status field. 
+- **Shared PAs** aren't currently supported 
+- **Grey lines** aren't currently supported 
+- **Accents in Names** aren't currently supported [Here] is a doc with a conversation with HR about this (https://docs.google.com/document/d/1GkTqMLEZWzDMPYEBWtjR4Ey-ee_4XwiH8OeP2M0bZ_4/edit)
+- People who are on **maternity leave** at the bottom left of the screen and their cover is in the org chart
+- We don't show **interns** in the org charts 
+- **Grads** Graudates - we have asked HR if they can include them in the org chart in the place they are doing their placement - this is yet to be confirmed 
 
 ***
 
 #Groups
 
-You can be a follower of department group a non contributing member of protected groups a member of protected groups a member of department groups
-
-I'd like people from appropriate departments to be added to a group on creation - all you have to do is to save a departmental group and the members will be added
-(groups landing page)
-
-a description element serves as department info, can include who to contact for which services news relating to that group an event calendar a forum, where users can ask questions and hold discussions a list of that group’s members (and Group Owners), linking to their profiles links to related content, e.g. org chart (if department group only), related policies or forms a link to that group’s SharePoint, if relevant
-
-Design:
-
-hover over groups = blue border Groups I’m following
-
-As a user I'd like to be able to follow or unfollow a group so that I can see news and events posted to it on my home page. - A user should be able to follow any group that they aren’t a member of - protected or unprotected (I think 27/6/2015).
-Given I am a member of comms department group I cannot follow the group. Given I am looking at an unprotected group page, I can
-
-Once a group has been requested, the Web Team will be responsible for checking that it is not a duplicate, and that it fits with the Principles before setting up the group within five working days of the request.
-
-As a Group Member, I want to be able to easily add a link in a news story or event to a SharePoint document or site, so that people reading the content can follow it
-
-As a UX designer, I want functional groups containing news, events and a collaborative element, so that I can structure the content in this way. AD accounts are set to automatically follow directors office, learning and development, staff forum and wellies
-Group Owners
-
-anyone can request a group, for any reason (project team, topic related, social), but under strict “use it or lose it” conditions.
-
-Each group will need at least one Group Owner (max. three for support/cover). We suggest that for the department groups, this role is taken up by the current Content Editor. Where there isn’t one, an Owner will need to be found.
-
-Group Owners will need to be determined for new groups as they are requested, with the assumption that the requestor will take on this role, at the discretion of the Web Editor.
-
-(which should be very simple). The name of the Group Owner(s) will be clear on the group page
-
-> As a group owner
-
-> I'd like to be able to request that news is pushed to the home pages of all users, so that all staff can see it.
-> Create groups 'Edit' view
-
-They will also administer membership
-
-> As a departmental group owner
-
-> I need to be able to add the department org chart so that people can access it easily. [INT-341]
-
-> I want to be able to add a link to a group's sharepoint on the group landing page so that it can easily be found.
-
-### A group page
-
-Can add other groups as related content in a group
-
-character limit on short descriptions for groups is 500
-
-
 ### All group types
 
-The group owners will decide if they can be contributing or non-contributing members. Contributing members will be able to contribute news and events to the group.
+*Purpose*
 
-There is a maximum of 3 (three) group owners allowed for a group and there must be one.
 
-Non-contributing members and followers will have the same access as nonmembers, but will be able to see news and events in their homepage feed.
+> As a user I'd like to be able to follow or unfollow a group so that I can see news and events posted to it on my home page. - A user should be able to follow any group that they aren’t a member of - protected or unprotected =
 
-Nonmembers can still read content within a group by visiting the page, ‘like’ content, add comments to news and contribute to discussions.
+> As a Group Member, I want to be able to easily add a link in a news story or event to a SharePoint document or site, so that people reading the content can follow it
 
-As web editor, I would like new users to automatically be followers of a specified set of groups, so that they have useful information when they first use the intranet.
+> As a UX designer, I want functional groups containing news, events and a collaborative element, so that I can structure the content in this way. AD accounts are set to automatically follow directors office, learning and development, staff forum and wellies
+
+> As a group owner I'd like to be able to request that news is pushed to the home pages of all users, so that all staff can see it.
+
+> As a group owner Create groups 'Edit' view 
+
+> Group owners will also administer membership
+
+> A group page Can add other groups as related content in a group
+
+
+*Troubleshooting*
+
+- character limit on short descriptions for groups is 500
+
+- You can be a follower of department group a non contributing member of protected groups a member of protected groups a member of department groups
+
+- Each group will need at least one Group Owner (max. three for support/cover). We suggest that for the department groups, this role is taken up by the current Content Editor. Where there isn’t one, an Owner will need to be found.
+
+- Group Owners will need to be determined for new groups as they are requested, with the assumption that the requestor will take on this role, at the discretion of the Web Editor.
+
+- a description element serves as department info, can include who to contact for which services news relating to that group an event calendar a forum, where users can ask questions and hold discussions a list of that group’s members (and Group Owners), linking to their profiles links to related content, e.g. org chart (if department group only), related policies or forms a link to that group’s SharePoint, if relevant
+ 
+- The group owners will decide if they can be contributing or non-contributing members. Contributing members will be able to contribute news and events to the group.
+
+- There is a maximum of 3 (three) group owners allowed for a group and there must be one.
+
+- Non-contributing members and followers will have the same access as nonmembers, but will be able to see news and events in their homepage feed.
+
+- Nonmembers can still read content within a group by visiting the page, ‘like’ content, add comments to news and contribute to discussions.
+
 
 ### Department groups (and protected groups)
 
-Users will have default membership of their department groups, and will also be able to follow other department groups (as you cannot join another department), or request membership of any other group.
+*Purpose*
 
-Non department groups
+> As web editor, I would like new users to automatically be followers of a specified set of groups, so that they have useful information when they first use the intranet.
 
-### Groups index
+> I want to be able to add a link to a group's sharepoint on the group landing page so that it can easily be found.
 
-As a manager, I want staff to be able to easily find key contacts in my department/team so that they know who to speak to to access our services
+>  As a departmental group owner I need to be able to add the department org chart so that people can access it easily. 
 
-As a user I want to see a searchable index of groups showing title and description so that I know what groups there are.
 
-Groups will be searchable, and will also have an index page - a searchable and sortable list of groups with summary paragraphs stating their purpose. These summaries will also be produced by the Group Owners. Users will also be able to request new groups from this page.
 
-I want to be able to join unprotected groups, so that I can quickly see what's important to me. HOMEPAGE
+> I'd like people from appropriate departments to be added to a group on creation - all you have to do is to save a departmental group and the members will be added. 
 
-change way in which typekit fonts are called to prevent it slowing down the site if it's unavailable
+*Troubleshooting*
+
+- Users will have default membership of their department groups, and will also be able to follow other department groups (as you cannot join another department), or request membership of any other group.
+
+
+
+### Non Department Groups
+
+*Purpose* 
+
+ > anyone can request a group, for any reason (project team, topic related, social), but under strict “use it or lose it” conditions.
+ 
+ *Troubleshooting 
+
+ - Once a group has been requested, the Web Team will be responsible for checking that it is not a duplicate, and that it fits with the Principles before setting up the group within five working days of the request. 
+
+###Groups index###
+
+*Purpose*
+
+> As a manager, I want staff to be able to easily find key contacts in my department/team so that they know who to speak to to access our services
+
+> As a user I want to see a searchable index of groups showing title and description so that I know what groups there are.
+
+> Groups will be searchable, and will also have an index page - a searchable and sortable list of groups with summary paragraphs stating their purpose. These summaries will also be produced by the Group Owners. Users will also be able to request new groups from this page.
+
+> I want to be able to join unprotected groups, so that I can quickly see what's important to me. HOMEPAGE
+
+*Troubleshooting*
+
 
 ***
 
