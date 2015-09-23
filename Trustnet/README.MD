@@ -2,7 +2,7 @@ Welcome to Trustnet Docs!
 
 ***
 
-[FAQs] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/FAQs.md)
+- [FAQs] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/FAQs.md)
  - [Recent] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Recent%20/%20New)
  - [Access] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/faqs.md#Access)
  - [Functionality] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Functionality)
@@ -10,9 +10,9 @@ Welcome to Trustnet Docs!
  - [Content] (https://github.com/wellcometrust/Web-Team-Public/trustnet/faqs.md#Content)
  
 
-[Purpose] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/Purpose.md)
+- [Purpose] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/Purpose.md)
 
-[About Trustnet Site] in more detial (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/About%20-Trustnet-Site.md)
+- [About Trustnet Site] (https://github.com/wellcometrust/Web-Team-Public/blob/master/Trustnet/About%20-Trustnet-Site.md)  in more detial
 
  - [Users] (https://github.com/wellcometrust/web-team-public/trustnet/#Users-and-Acess) 
  - [All pages / content] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#content)
