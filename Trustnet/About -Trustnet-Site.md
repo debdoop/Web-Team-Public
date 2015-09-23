@@ -1,17 +1,18 @@
 ###Index
 
-- [Users] (https://github.com/wellcometrust/web-team-public/trustnet/users/Users-and-Acess) 
-- [All pages / content] (https://github.com/wellcometrust/web-team-public/trustnet#content)
-- [Search] (https://github.com/wellcometrust/web-team-public/trustnet#search)
-- [Home](https://github.com/wellcometrust/web-team-public/trustnet#home-page) / [News] (https://github.com/wellcometrust/web-team-public/trustnet#news) / [Events](https://github.com/wellcometrust/web-team-public/trustnet#events) / [Notice Board] (https://github.com/wellcometrust/web-team-public/trustnet#notice-board) / [Lunch Menu] (https://github.com/wellcometrust/web-team-public/trustnet#lunch-menu)
-- [Working at Wellcome (W@W)] (https://github.com/wellcometrust/web-team-public/trustnet#working-at-wellcome) / [Forms] (https://github.com/wellcometrust/web-team-public/trustnet#forms) [Policies] (https://github.com/wellcometrust/web-team-public/trustnet#policies) / [Courses] (https://github.com/wellcometrust/web-team-public/trustnet#courses) / [Jobs] (https://github.com/wellcometrust/web-team-public/trustnet#jobs)
-- [Org chart / Organisation] (https://github.com/wellcometrust/web-team-public/trustnet#org-charts--organisation) / [Profiles] (https://github.com/wellcometrust/web-team-public/trustnet#profiles)
-- [Groups] (https://github.com/wellcometrust/web-team-public/trustnet#groups)
+- [Users] (https://github.com/wellcometrust/web-team-public/trustnet/#Users-and-Acess) 
+- [All pages / content] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#content)
+- [Search] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#search)
+- [Home](https://github.com/wellcometrust/web-team-public/trustnet#home-page) / [News] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#news) / [Events](https://github.com/wellcometrust/web-team-public/trustnet#events) / [Notice Board] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#notice-board) / [Lunch Menu] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#lunch-menu)
+- [Working at Wellcome (W@W)] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#working-at-wellcome) / [Forms] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#forms) [Policies] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#policies) / [Courses] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#courses) / [Jobs] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#jobs)
+- [Org chart / Organisation] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#org-charts--organisation) / [Profiles] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#profiles)
+- [Groups] (https://github.com/wellcometrust/web-team-public/About -Trustnet-Site.md#groups)
 
 ***
 
 ## Users and Acess
 
+*Purpouse* 
 
 > As web editor, I'd like Trust employees, Service Partners, Contractors and Tenants to have 'normal' access to the intranet so that we can share with them.
 
@@ -54,66 +55,56 @@ Their data is pulled in from IT’s AD data which at the moment doesn’t have w
 
 They can be manually added to a department group but only after someone with edit access has added them by the "add to team (for contractor's)" field
 
-### Anomalies / troubleshooting
 
-James Mudd - has a non AD email address in HR. So he should log in with his AD account details which will be James.Mudd@amr-review.org and normal password
-
-To find an AD account’s username you can right click their email address in outlook (to: field) > properties > alias.
-
-If a user has two accounts (- it seems like they get blocked
-
-Their AD account needs to be in a verified group Windows 7 users group is verified Generic Accounts (I think isn’t verified)
-
-### Leavers / old accounts
+### HR and AD accounts
 
 Enabled / disabled: is purely a drupal thing. If someone isn’t in the HR extract any more but they were, their account will be disabled.
 
-if someone is in HR and has logged on with their AD account they are enabled. If someone has been marked as left in HR they are disabled: their profile will be hidden but their content will stay.
-
-Account blocked (what happens when someone leaves) will mean that they aren't visible from anywhere.
-
-Disabled accounts eg. https://trustnet.wellcome.ac.uk/user/hurleyo are still visible if linked to but they do not appear in org charts or groups.
-
-HR: It is the responsibility of the employee to notify HR when they change their name. Change of name has implications on Payroll, Pensions, and Healthcare amongst other things. When we hear of a change of name, SelectHR is updated and payroll, AXA, security, and the pension providers are notified. The employee is advised that they need to contact IT to get their logonid/email address changed. There is no requirement for the employee to provide documentary evidence. In terms of synchronising changes to logonid with IT so that access to SelectHR is unaffected, the employee is told to notify HR again once their logonid has been changed by IT, and then the corresponding change is made to their SelectHR account.
-
-I don’t believe admin were aware of this particular change. They tell me that quite often the employee realises that they need to notify payroll, and then Nick Bowden notifies HR. There have been occasions where employees have been unable to take up their Healthcare because their details didn’t match those held by AXA and then they have notified us of changes.
-
-Going forward we are debating making name change available via self-service on the basis that the easier it is to do the more likely the employee is to do it, but there are significant risks in doing this, as employees (in other organisations, of course!)often find it amusing to enter spurious personal details.
-
-HR notify payrol, securitty, axa insurance. They tell the individual that they have to update IT.
-
-Erland is contracted to update select HR to 2.1 - he will be in touch with debbie about dates for testing how it works with the extract on stage. 6 - 10 weeks ahead of launch of trustnet (so november december)
-
-Tracey, Sonia Erland and Glenn have access to the HR reported issues sheet Tracey and Sonia have the HR generic email address, so they get the requests from Trustnet org charts. They are able to update email addresses.
-
-New starters will usually be added before they arrive (but with no email address) HR then tell IT,who make them an email address and then HR update their records. So new starters will probably come in through the extract without email addresses, then when they log in AD will link.
-
-Contractors like Noel Quinn - HR donsn’t want their names in HR, they want to use position Null.
-
-Gary Campbell is the IT HR account manager
-
-Erland has a document started with ACF (missing ACFs part) about the extract.
+If someone is in HR and has logged on with their AD account they are enabled. If someone has been marked as left in HR they are disabled/ blocked : their profile will be hidden but their content will stay. They won't be able to login. They will be automatically removed from department groups. 
 
 Select HR is hosted by a third party, and connects through a vpn.
 
+
+**New Starters** 
+
+New starters will usually be added before they arrive (but with no email address) HR then tell IT,who make them an email address and then HR update their records. So new starters will probably come in through the extract without email addresses, then when they log in AD will link.
+
+**Name Changes**
+
+HR: It is the responsibility of the employee to notify HR when they change their name. Change of name has implications on Payroll, Pensions, and Healthcare amongst other things. When we hear of a change of name, SelectHR is updated and payroll, AXA, security, and the pension providers are notified. The employee is advised that they need to contact IT to get their logonid/email address changed. There is no requirement for the employee to provide documentary evidence. In terms of synchronising changes to logonid with IT so that access to SelectHR is unaffected, the employee is told to notify HR again once their logonid has been changed by IT, and then the corresponding change is made to their SelectHR account.
+
 When an AD account changes - Eg. AD username was SherrarK and changed to SherratK. Updating the account from AD didn’t allow her to log in, changing her username on Trustnet didn’t allow her to log in, I had to change her account in order for her to log in.
 
-### Accents in names 
+*Future* 
+
+Going forward we are debating making name change available via self-service on the basis that the easier it is to do the more likely the employee is to do it, but there are significant risks in doing this, as employees (in other organisations, of course!)often find it amusing to enter spurious personal details.
+
+HR will be updated to 2.1 - they will be in touch about dates for testing how it works with the extract on stage. (so november december)
+
+*Accents in names*
 
 If HR agree to include accents they will appear on peoples names - eg. Barbara Rodriguez Munoz and their AD account still links (is it linked by email address only?) 
-Search won't find them if people search without the accents - but they can include their name without accents in their profile description. 
-
-### Incorrect Password 
-Locks you out for 15-20 minutes 
+Search won't find them if people search without the accents - but they can include their name without accents in their profile description (This is a backlog item). 
 
 
-### Admin
-- Update user from AD (available to WPC) currently updates Name and Job title only. 
-- 
+### Troubleshooting
+
+
+To find an AD account’s username you can right click their email address in outlook (to: field) > properties > alias.
+
+AD account needs to be in a verified group Windows 7 users group is verified Generic Accounts (I think isn’t verified)
+
+Incorrect Password locks you out for 15-20 minutes 
+
+Update user from AD (available to WPC) currently updates Name and Job title only.
+
+Update user with HR data updates the org chart settings for accounts even if the data was in the extract (the extract won't necessarliy update the org chart automatically).
+
 ***
+
 ## All pages / content 
 
-### Supported content 
+**Supported content*** 
 
 Video: we will be able to use video on the new site – but it will be hosted on our (private) YouTube channel. 
 
@@ -121,34 +112,38 @@ TBC - AV may have access so they can upload their own content
 
 Images 2mb is the max size
 
-### Default page elements
+***Default page elements***
 
-(favicon)
-page title - “[Page Title] | Trustnet”
+(favicon) page title - “[Page Title] | Trustnet”
 
-Sidebar 
-Closing sidebar via click anywhere in the browser
+Sidebar closing sidebar via click anywhere in the browser
 
 CSS animated transitions aren't supported by IE9, however the nav bar is still accessible and functional without the animation so I believe this is an acceptable fallback.
 
 
-### Notifications
-
+**Notifications**
 
 There is a notification page showing all read notifications: https://trustnet.wellcome.ac.uk/user/328/messages
 
-### Comments
-
-‘Submit’ buttons on forms inactive until something has been entered 
+**Comments***
 
 Comment boxes should have one style everywhere 
 
 Floating buttons 
 
+###Troubleshooting
+
+‘Submit’ buttons on forms inactive until something has been entered 
+
+Forum posts don't currently cause notifications 
+
+IE9 sometimes loads the page in compatability mode - to fix, click the blue broken page icon right of the address bar. 
 
 ***
 
 ### Search
+
+**Purpose**
 
 Working at Wellcome 
 
@@ -192,41 +187,33 @@ Functionality
 
 > As a user I want Hidden rather than faded out advanced search options until they're available 
 
+**Troubleshooting**
+
+- Search doesn't currently return sharepoint sites only content 
+- Searching for a name with an accent doens't currently return the name without the accent and vice versa. 
+- Solr search is what we are using 
+- Content owners are able to tag content
 
 ## Home Page 
 
-Quick Links 
+*Purpouse*
 
-> As a user 
+> **Quick Links** As a user I want access to Select HR, payslips and similar links from the homepage, so that I can find them easily.
+Offsite link: : https://wellcomehr.accessacloud.com/accessselecthr/Login.aspx 
 
-> I want access to Select HR, payslips and similar links from the homepage, so that I can find them easily.
+> As a user I would like to easily see upcoming **events** on the home page, so that I know when (and what) they are.
 
-> Offsite link: : https://wellcomehr.accessacloud.com/accessselecthr/Login.aspx 
+> As a user I want to be able to see the **news from the groups I follow or am a member of**, on the home page, so I don't miss what's important to me.
 
-Events 
+> As a user I want to see **news**tories so I know what is happening around the Trust
 
-> I would like to easily see upcoming events on the home page, so that I know when (and what) they are.
-
-News 
-
-> I want to be able to see the news from the groups I follow or am a member of, on the home page, so I don't miss what's important to me.
+> I want to be able to find **old news** stories so that I can check information
 
 >  As a web editor I need to be able to approve or decline requests for news to appear on the homepage so that I have editorial control
 
 > How many items should appear on the news page? 5 events and 5 noticeboard then we have load more button 20/8/2015
 
-
-## News 
-
-
-> As a user I want to see news stories so I know what is happening around the Trust
-
-> I want to be able to find old news stories so that I can check information
-
-Trustnet Editor can remove old news
-
-
-> As a comms manager I want to be able to push strategic news so that staff don't miss important updates
+> As a comms manager I want to be able to push **sategic news so that staff don't miss important updates
 
 > As a comms manager I want more news items to be visible on the homepage at once, so that important or time sensitive news items do not "fall off" the homepage too quickly
 
