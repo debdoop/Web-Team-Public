@@ -112,7 +112,7 @@ Video: we will be able to use video on the new site – but it will be hosted on
 
 TBC - AV may have access so they can upload their own content
 
-Images 2mb is the max size
+Images 2mb is the max size 900x507 is the automatic dimensions for a news, noticeboard or event image
 
 ***Default page elements***
 
