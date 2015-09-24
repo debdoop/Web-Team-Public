@@ -100,6 +100,8 @@ Update user from AD (available to WPC) currently updates Name and Job title only
 
 Update user with HR data updates the org chart settings for accounts even if the data was in the extract (the extract won't necessarliy update the org chart automatically).
 
+- Update user from HR will temporarily remove the AD data (phone number) until the user logs in again. 
+
 ***
 
 ## All pages / content 
