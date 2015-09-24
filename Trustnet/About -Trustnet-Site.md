@@ -87,6 +87,11 @@ If HR agree to include accents they will appear on peoples names - eg. Barbara R
 Search won't find them if people search without the accents - but they can include their name without accents in their profile description (This is a backlog item). 
 
 
+###Profiles 
+
+- You should not be able to finish saving your profle without an image
+
+
 ### Troubleshooting
 
 
