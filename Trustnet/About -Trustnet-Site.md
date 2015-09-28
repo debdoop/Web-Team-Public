@@ -348,6 +348,7 @@ When adding a job that goes to the external jobs listing site, the form currentl
 
 > A group page Can add other groups as related content in a group
 
+> As a group owner I want members to add news or events, and for me to be able to approve them
 
 *Troubleshooting*
 
